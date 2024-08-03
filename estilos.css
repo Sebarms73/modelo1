@@ -3,6 +3,7 @@
 	margin: 0px;
 	font-family:serif;
 	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
 	
 	}
 	
@@ -23,7 +24,8 @@
 	
 	
 .logo{
-		
+		margin: 0;
+		padding: 0;
 		object-fit: cover;
 		width: 200px;
 		height: 69px;
@@ -48,18 +50,9 @@
 		background-image: url("https://i0.wp.com/ideasenladucha.com/storage/2023/11/Reviviendo-la-joyeria-artesanal-Descubre-joyas-unicas-con-Realidad-Aumentada-e-Inteligencia-Artificial.png?fit=1792%2C1024&ssl=1");
 		background-size: cover;
 		background-position: center;
-		
-		
+			
 	}
 
-img{
-		
-		width: 100%;
-		height: 100%;
-		object-position: center;
-		object-fit:cover;
-	}
-	
 h1{
 	font-size: 25px;
 	background-clip: content-box;
@@ -71,8 +64,11 @@ h1{
 		
 
 }
-
-.nosotros h2{
+article{
+	border: solid;
+	width: 100%;
+}
+h2{
 	font-size: 20px;
 	text-align: center;
 	margin-top: 10px;
@@ -80,12 +76,32 @@ h1{
 	
 }
 
-.nosotros p {
+.nosotros, p {
 	font-size: 15px;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
+.productos{
+	display: inline-flexbox;
+	width: 100%;
+	height: 350px;
+	border: solid;
+	
+
+
+}
+.collar{
+		width:300px;
+		height: 300px;
+		justify-content: left;
+		
+		margin: 0;
+		padding: 0;
+
+		
+}
 
 
 
